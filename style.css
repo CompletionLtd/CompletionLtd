@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+  /*background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);*/
+  /*background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);*/
+  background: rgb(63, 158, 165);
+  background: linear-gradient(90deg, rgba(63, 158, 165, 1) 0%, rgba(2, 1, 107, 1) 36%, rgba(35, 121, 165, 1) 100%);
+  color: #fff;
+  font-size: 1.5rem;
+  height: 100vh;
+}
+
+#logo {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: #fff;
+}
+
+#logo img {
+  height: 17rem;
+  width: 17rem;
+  margin-top: 3rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25%;
+  padding: 1rem;
+  border: solid #fff 0.2rem;
+}
+
+#details ul {
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 0.5rem;
+  margin-top: 4rem;
+  text-transform: capitalize;
+}
+
+#details ul li {
+  margin-bottom: 0.5rem;
+}
+
+#tab table,
+td,
+th {
+  border: 0.063rem solid #fff;
+}
+
+#sect {
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 1.126rem;
+}
+
+#tab table {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 5rem;
+  width: 50%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  color: #fff;
+}
+
+#footer .address {
+  background-color: #1d1d1d;
+  margin: 0rem 0.63rem;
+  padding: 0.504rem 1.197rem;
+  border-radius: 0.63rem;
+}
+
+#footer .phone {
+  background-color: #1d1d1d;
+  margin: 0rem 0.63rem;
+  padding: 0.504rem;
+  border-radius: 0.63rem;
+}
+
+#footer .email {
+  background-color: #1d1d1d;
+  margin: 0rem 0.63rem;
+  padding: 0.504rem;
+  border-radius: 0.63rem;
+}
+
+.sect1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 1.89rem 0 0 0;
+  font-weight: 700;
+  color: #1affff;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 100%;
+  font-size: 2.5rem;
+
+}
+
+.social a {
+  padding: 0.126rem 0.378rem 0rem 0.378rem;
+  display: flex;
+  color: #fff;
+  margin: 0rem 1.008rem 1.89rem 1.008rem;
+}
+
+.whatsapp {
+  background: #25D366;
+  border-radius: 0.819rem;
+}
+
+.instagram {
+  border-radius: 0.819rem;
+  background: linear-gradient(#405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+/*Media query*/
+@media screen and (min-width: 1440px) {
+  #details ul {
+    margin-left: 19%;
+  }
+
+  #details ul li {
+    font-size: 1.764rem;
+  }
+
+  #footer {
+    font-size: 1.575rem;
+  }
+
+  .sect1 {
+    font-size: 1.89rem;
+    ;
+  }
+
+  .social {
+    font-size: 3.5rem;
+  }
+
+  .social a {
+    padding: 0.126rem 0.504rem 0rem 0.504rem;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  #logo img {
+    height: 30rem;
+    width: 30rem;
+  }
+
+  #details ul li {
+    font-size: 3rem;
+  }
+
+  #tab table {
+    margin-left: 7%;
+    width: 85%;
+    font-size: 3.063rem;
+  }
+
+  #sect {
+    font-size: 4.063rem;
+  }
+
+  #footer {
+    font-size: 2.142rem;
+  }
+
+  .sect1 {
+    font-size: 4.063rem;
+  }
+
+  .social {
+    font-size: 6rem;
+  }
+
+  .social a {
+    padding: 0.126rem 15px 0rem 15px;
+    border-radius: 1.819rem
+  }
+}
+
+@media screen and (max-width: 720px) {
+  #logo {
+    margin-left: 24%;
+  }
+
+  #logo img {
+    height: 21rem;
+    width: 21rem;
+  }
+
+  #details ul {
+    margin-left: 10%;
+    margin-right: 0%;
+  }
+
+  #details ul li {
+    font-size: 2.898rem;
+  }
+
+  #tab table {
+    margin-left: 0%;
+    width: 100%;
+    font-size: 2.835rem;
+  }
+
+  #sect {
+    font-size: 3.15rem;
+  }
+
+  #footer {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #footer .address {
+    margin: 1rem 4.63rem;
+    padding: 0.504rem 0.197rem;
+  }
+
+  #footer .email {
+    margin: 1rem 4.63rem;
+    padding: 0.504rem 0.197rem;
+  }
+
+  #footer .phone {
+    margin: 1rem 4.63rem;
+    padding: 0.504rem 0.197rem;
+  }
+
+  .sect1 {
+    font-size: 2.835rem;
+  }
+
+  .social {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #logo img {
+    height: 21rem;
+    width: 21rem;
+  }
+
+  #details ul {
+    margin: 0% 5% 0% 10%;
+  }
+
+  #sect {
+    font-size: 3.15rem;
+  }
+
+  #tab table {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  #footer {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #footer .address {
+    margin: 1rem 4.63rem;
+    padding: 0.504rem 0.197rem;
+  }
+
+  #footer .email {
+    margin: 1rem 4.63rem;
+    padding: 0.504rem 0.197rem;
+  }
+
+  #footer .phone {
+    margin: 1rem 4.63rem;
+    padding: 0.504rem 0.197rem;
+  }
+
+  .sect1 {
+    font-size: 3.024rem;
+  }
+
+  .social {
+    font-size: 5.355rem;
+  }
+
+  .social a {
+    padding: 0.378rem 0.756rem 0rem 0.756rem;
+  }
+}
