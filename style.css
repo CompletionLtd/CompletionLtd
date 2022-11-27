@@ -34,7 +34,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);*
 
 #details ul {
   margin-left: 15%;
-  margin-right: 15%;
+  margin-right: 12%;
   padding: 0.5rem;
   margin-top: 4rem;
   text-transform: capitalize;
@@ -116,194 +116,159 @@ th {
 }
 
 .social a {
-  padding: 0.126rem 0.378rem 0rem 0.378rem;
+  padding: 0.189rem 0.378rem 0rem 0.378rem;
   display: flex;
   color: #fff;
   margin: 0rem 1.008rem 1.89rem 1.008rem;
 }
 
-.whatsapp {
+/*.whatsapp {
   background: #25D366;
   border-radius: 0.819rem;
-}
+}*/
 
 .instagram {
   border-radius: 0.819rem;
   background: linear-gradient(#405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
 }
 
+.telegram {
+  border-radius: 0.819rem;
+  background: #0088cc;
+}
+
 /*Media query*/
-@media screen and (min-width: 1440px) {
-  #details ul {
-    margin-left: 19%;
+
+
+/*mobile*/
+@media screen and (max-width : 360px) {
+  #logo {
+    margin-left: 4.221rem;
   }
 
-  #details ul li {
+  #logo img {
+    height: 11rem;
+    width: 11rem;
+  }
+
+  #details ul {
+    margin-left: 9%;
+    margin-right: 4%;
+    margin-top: 3rem;
+  }
+
+  #sect {
+    font-size: 1.89rem;
+  }
+
+  #tab table {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  #footer {
+    flex-direction: column;
+  }
+
+  #footer .address {
+    margin: 1rem 0.63rem;
+  }
+
+  #footer .email {
+    margin: 1rem 0.63rem;
+  }
+
+  #footer .phone {
+    margin: 1rem 0.63rem;
+  }
+
+  .sect {
     font-size: 1.764rem;
   }
 
-  #footer {
-    font-size: 1.575rem;
-  }
-
-  .sect1 {
-    font-size: 1.89rem;
-    ;
-  }
-
   .social {
-    font-size: 3.5rem;
-  }
-
-  .social a {
-    padding: 0.126rem 0.504rem 0rem 0.504rem;
-  }
-}
-
-@media screen and (max-width: 1080px) {
-  #logo img {
-    height: 30rem;
-    width: 30rem;
-  }
-
-  #details ul li {
-    font-size: 3rem;
-  }
-
-  #tab table {
-    margin-left: 7%;
-    width: 85%;
-    font-size: 3.063rem;
-  }
-
-  #sect {
-    font-size: 4.063rem;
-  }
-
-  #footer {
-    font-size: 2.142rem;
-  }
-
-  .sect1 {
-    font-size: 4.063rem;
-  }
-
-  .social {
-    font-size: 6rem;
-  }
-
-  .social a {
-    padding: 0.126rem 15px 0rem 15px;
-    border-radius: 1.819rem
-  }
-}
-
-@media screen and (max-width: 720px) {
-  #logo {
-    margin-left: 24%;
-  }
-
-  #logo img {
-    height: 21rem;
-    width: 21rem;
-  }
-
-  #details ul {
-    margin-left: 10%;
-    margin-right: 0%;
-  }
-
-  #details ul li {
     font-size: 2.898rem;
   }
 
-  #tab table {
-    margin-left: 0%;
-    width: 100%;
-    font-size: 2.835rem;
-  }
-
-  #sect {
-    font-size: 3.15rem;
-  }
-
-  #footer {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  #footer .address {
-    margin: 1rem 4.63rem;
-    padding: 0.504rem 0.197rem;
-  }
-
-  #footer .email {
-    margin: 1rem 4.63rem;
-    padding: 0.504rem 0.197rem;
-  }
-
-  #footer .phone {
-    margin: 1rem 4.63rem;
-    padding: 0.504rem 0.197rem;
-  }
-
-  .sect1 {
-    font-size: 2.835rem;
-  }
-
-  .social {
-    font-size: 5rem;
+  .social a {
+    padding: 0.189rem 0.441rem 0rem 0.441rem;
   }
 }
 
-@media screen and (max-width: 768px) {
+/*iphone*/
+@media screen and (max-width : 380px) {
+  #logo {
+    margin-left: 16%;
+  }
+
   #logo img {
-    height: 21rem;
-    width: 21rem;
+    height: 13rem;
+    width: 13rem;
   }
-
-  #details ul {
-    margin: 0% 5% 0% 10%;
+  #details ul{
+    margin-left: 11%;
+    margin-right: 9%;
   }
-
-  #sect {
-    font-size: 3.15rem;
-  }
-
-  #tab table {
-    width: 100%;
+  #tab table{
     margin-left: 0%;
+    width: 100%;
   }
-
   #footer {
     flex-direction: column;
-    width: 100%;
   }
-
   #footer .address {
-    margin: 1rem 4.63rem;
-    padding: 0.504rem 0.197rem;
+    margin: 1rem 0.63rem;
   }
 
   #footer .email {
-    margin: 1rem 4.63rem;
-    padding: 0.504rem 0.197rem;
+    margin: 1rem 0.63rem;
   }
 
   #footer .phone {
-    margin: 1rem 4.63rem;
-    padding: 0.504rem 0.197rem;
+    margin: 1rem 0.63rem;
   }
 
-  .sect1 {
-    font-size: 3.024rem;
+  .sect {
+    font-size: 1.764rem;
+  }
+}
+
+@media screen and (max-width: 695px){
+  #footer{
+    flex-direction: column;
+  }
+  #footer .address {
+    margin: 1rem 0.63rem;
   }
 
-  .social {
-    font-size: 5.355rem;
+  #footer .email {
+    margin: 1rem 0.63rem;
   }
 
-  .social a {
-    padding: 0.378rem 0.756rem 0rem 0.756rem;
+  #footer .phone {
+    margin: 1rem 0.63rem;
+  }
+}
+
+/*tablet*/
+@media screen and (max-width : 786px) {
+  #details ul {
+    margin-left: 12%;
+    margin-right: 8%;
+  }
+
+  #tab table {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+/*laptop*/
+@media screen and (max-width : 1440px) {
+  #details ul {
+    margin-left: 15%;
+    margin-right: 15%;
   }
 }
