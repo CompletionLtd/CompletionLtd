@@ -207,17 +207,21 @@ th {
     height: 13rem;
     width: 13rem;
   }
-  #details ul{
+
+  #details ul {
     margin-left: 11%;
     margin-right: 9%;
   }
-  #tab table{
+
+  #tab table {
     margin-left: 0%;
     width: 100%;
   }
+
   #footer {
     flex-direction: column;
   }
+
   #footer .address {
     margin: 1rem 0.63rem;
   }
@@ -235,10 +239,22 @@ th {
   }
 }
 
-@media screen and (max-width: 695px){
-  #footer{
+
+@media screen and (max-width: 456px){
+  #logo{
+    margin-left: 15%;
+  }
+  #logo img{
+    height: 13rem;
+    width: 13rem;
+  }
+}
+
+@media screen and (max-width: 695px) {
+  #footer {
     flex-direction: column;
   }
+
   #footer .address {
     margin: 1rem 0.63rem;
   }
