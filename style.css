@@ -64,6 +64,15 @@ th {
   border-collapse: collapse;
   text-align: center;
 }
+.sect2 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 1.89rem 0 0 0;
+  font-weight: 700;
+  color: #1affff;
+  margin-bottom: 1.26rem;
+}
 
 #footer {
   display: flex;
@@ -184,7 +193,10 @@ th {
     margin: 1rem 0.63rem;
   }
 
-  .sect {
+  .sect1{
+    font-size: 1.764rem;
+  }
+  .sect2{
     font-size: 1.764rem;
   }
 
@@ -211,6 +223,7 @@ th {
   #details ul {
     margin-left: 11%;
     margin-right: 9%;
+    
   }
 
   #tab table {
@@ -234,7 +247,10 @@ th {
     margin: 1rem 0.63rem;
   }
 
-  .sect {
+  .sect1{
+    font-size: 1.764rem;
+  }
+  .sect2{
     font-size: 1.764rem;
   }
 }
@@ -295,7 +311,8 @@ th {
 /*laptop*/
 @media screen and (max-width : 1440px) {
   #details ul {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 19%;
+    font-size: 1.26rem;
+    margin-right: 10%;
   }
 }
